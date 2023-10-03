@@ -21,7 +21,7 @@ namespace Tyuiu.YangolenkoDS.Sprint2.Task0.V2
             Console.Title = "Спринт #2 | Выполнил: Янголенко Д. С. | АСОиУб-23-1";
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* Спринт #2                                                                         *");
-            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                           *");
+            Console.WriteLine("* Тема: Операции сравнения                                                          *");
             Console.WriteLine("* Задание #0                                                                        *");
             Console.WriteLine("* Вариант #2                                                                        *");
             Console.WriteLine("* Выполнил: Янголенко Данил Сергеевич | АСОиУб-23-1                                 *");
