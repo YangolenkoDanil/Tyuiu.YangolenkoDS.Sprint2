@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Tyuiu.YangolenkoDS.Sprint2.Task3.V20.Lib;
+
 namespace Tyuiu.YangolenkoDS.Sprint2.Task3.V20
 {
     class Program
@@ -16,31 +18,30 @@ namespace Tyuiu.YangolenkoDS.Sprint2.Task3.V20
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* Спринт #2                                                                         *");
             Console.WriteLine("* Тема: Вложенные операторы if - else                                               *");
-            Console.WriteLine("* Вариант #29                                                                       *");
+            Console.WriteLine("* Задание #3                                                                        *");
+            Console.WriteLine("* Вариант #20                                                                       *");
             Console.WriteLine("* Выполнил: Янголенко Данил Сергеевич | АСОиУб-23-1                                 *");
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                          *");
-            Console.WriteLine("* Написать программу, которая запрашивает целые значения с клавиатуры и вычисляет,  *");
-            Console.WriteLine("* находится ли точка с координатами X,Y в заштрихованной области.                   *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с              *");
+            Console.WriteLine("* использованием вложенных операторов if-else, где пользователь вводит значение     *");
+            Console.WriteLine("* переменной X с клавиатуры. Округлить полученное значение до трех знаков после     *");
+            Console.WriteLine("* запятой.                                                                          *");
             Console.WriteLine("*                                                                                   *");
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                  *");
             Console.WriteLine("*************************************************************************************");
-            int x, y;
+            double x;
 
-            Console.WriteLine("Введите значение координаты X:");
-            x = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Введите значение координаты Y:");
-            y = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("Введите значение переменной X:");
+            x = Convert.ToDouble(Console.ReadLine());
 
 
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                        *");
             Console.WriteLine("*************************************************************************************");
-            bool res = ds.CheckDotInShadedArea(x, y);
-            Console.WriteLine(res);
+            double y = Math.Round(ds.Calculate(x), 3);
+            Console.WriteLine(y);
             Console.ReadKey();
         }
     }
