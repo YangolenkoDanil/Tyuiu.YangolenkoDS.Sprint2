@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.YangolenkoDS.Sprint2.Task2.V29.Lib;
-
-namespace Tyuiu.YangolenkoDS.Sprint2.Task2.V29
+namespace Tyuiu.YangolenkoDS.Sprint2.Task3.V20
 {
     class Program
     {
@@ -17,8 +15,7 @@ namespace Tyuiu.YangolenkoDS.Sprint2.Task2.V29
             Console.Title = "Спринт #2 | Выполнил: Янголенко Д. С. | АСОиУб-23-1";
             Console.WriteLine("*************************************************************************************");
             Console.WriteLine("* Спринт #2                                                                         *");
-            Console.WriteLine("* Тема: Оператор if – полная и короткая форма записи                                *");
-            Console.WriteLine("* Задание #2                                                                        *");
+            Console.WriteLine("* Тема: Вложенные операторы if - else                                               *");
             Console.WriteLine("* Вариант #29                                                                       *");
             Console.WriteLine("* Выполнил: Янголенко Данил Сергеевич | АСОиУб-23-1                                 *");
             Console.WriteLine("*************************************************************************************");
