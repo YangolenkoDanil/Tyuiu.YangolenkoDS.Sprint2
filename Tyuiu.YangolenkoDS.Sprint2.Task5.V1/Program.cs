@@ -44,7 +44,7 @@ namespace Tyuiu.YangolenkoDS.Sprint2.Task5.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                        *");
             Console.WriteLine("*************************************************************************************");
 
-            Console.WriteLine(res);
+            Console.WriteLine($"Количество дней в месяце: {res}");
             Console.ReadKey();
         }
     }
